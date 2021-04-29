@@ -9,8 +9,8 @@
 	<packaging>sonar-plugin</packaging>
 
 	<name>SonarQube JavaScript Custom Rules Example</name>
-	<description>JavaScript Custom Rules Example for SonarQube</description>
-	<inceptionYear>2016</inceptionYear>
+	<description>WebCalculator</description>
+	<inceptionYear>2021</inceptionYear>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
