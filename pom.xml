@@ -50,20 +50,7 @@
 
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>org.sonarsource.sonar-packaging-maven-plugin</groupId>
-				<artifactId>sonar-packaging-maven-plugin</artifactId>
-				<version>1.17</version>
-				<extensions>true</extensions>
-				<configuration>
-					<pluginKey>js-custom</pluginKey>
-					<pluginName>JavaScript Custom Rules</pluginName>
-					<pluginClass>org.sonar.samples.javascript.JavaScriptCustomRulesPlugin</pluginClass>
-					<sonarLintSupported>true</sonarLintSupported>
-					<sonarQubeMinVersion>6.7</sonarQubeMinVersion>
-					<basePlugin>javascript</basePlugin>
-				</configuration>
-			</plugin>
+			
 				
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
